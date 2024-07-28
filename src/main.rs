@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use eframe::egui;
 use egui::{ScrollArea, TextEdit, TextStyle};
 use std::fs::{File, OpenOptions};
